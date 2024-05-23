@@ -135,3 +135,4 @@ if query:
     with st.chat_message("user"):
         st.markdown(query)
     llm_function(chat, query)
+
